@@ -28,6 +28,11 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+/*notification menu*/
+.v-menu__content.menuable__content__active 
+  > .v-card.theme--dark {
+    background-color: #000000 !important;
+}
 /* icons */
 .theme--dark.v-icon {
     color: var(--v-anchor-base);
@@ -66,5 +71,3 @@
     background-color: #08080881;
     color: var(--v-anchor-base);
 }
-
-
